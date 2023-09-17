@@ -1,0 +1,38 @@
+- app: "111"
+  scope: ALL
+  desktop:
+    js:
+      - desktop.js
+      - global.js
+    css:
+      - desktop.css
+  mobile:
+    js:
+      - desktop.js
+      - validation.js
+    css:
+      - desktop.css
+- app: "222"
+  scope: ALL
+  desktop:
+    js:
+      - desktop.js
+    css:
+      - desktop.css
+  mobile:
+    js:
+      - desktop.js
+    css:
+      - desktop.css
+- app: "333"
+  scope: ALL
+  desktop:
+    js:
+      - desktop.js
+    css:
+      - desktop.css
+  mobile:
+    js:
+      - desktop.js
+    css:
+      - desktop.css
